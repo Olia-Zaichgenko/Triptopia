@@ -76,7 +76,7 @@ p{
     font-weight: 400;
 }
 
-/* header */
+/* HEADER */
 
 header{
     height: 100vh;
@@ -135,3 +135,21 @@ header{
     width: 286px;
     margin-top: 360px;
 }
+
+
+/* SECTION ABOUT US*/
+.section-about-us .container{
+    margin: 300px auto 267px auto;
+}
+.section-heading img{
+    margin: -100px 0 80px;
+}
+.section-heading h2{
+    margin: 45px;
+}
+.description{
+    width: 50%;
+}
+
+
+
