@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Jura:wght@300..700&display=swap');
+
+/* Основные настройки */
+* {
+    box-sizing: border-box;
+    font-family: "Jura", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #020E20;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    font-family: 'Jura';
+    color: #FFFFFF;
+}
+.container{
+    margin: 0 auto;
+    width: 1612px;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.ai-center{
+    display: flex;
+    align-items: center;
+}
+.jc-center{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 96px;
+    font-weight: 700;
+    color: black;
+    z-index: -2;
+    margin-top: 100px;
+}
+h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+h3{
+    font-size: 36px;
+    color: #A6FF73;
+}
+h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+h5{
+    font-family: "Dhurjati", sans-serif;
+}
+p{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* header */
+
+header{
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(0, 119, 222, 0.7) 0%, #A6FF73 100%);
+}
+.nav{
+    border-bottom: 1px solid #FFFFFF;
+}
+.menu li+li{
+    margin-left: 35px;
+}
+.menu a{
+    color: #FFFFFF;
+    transition: 0.2s ease-in;
+}
+.menu a:hover{
+    text-decoration: dotted;
+    text-decoration: underline;
+    color: #A6FF73;
+}
+.logo h5{
+    font-weight: 400;
+    margin-left: 4px;
+    font-size: 20px;
+}
+.btn-call{
+    background-color: #A6FF73;
+    padding: 0 016px 0 8px;
+    border-radius: 12px;
+    margin: 11px 0;
+}
+.btn-call h5{
+    color: #020E20;
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 16px;
+}
+.main-header{
+    text-align: center;
+}
+.main-img{
+    position: absolute;
+    top: 330px;
+    z-index: 1;
+}
+.btn-type1{
+    background-color: #A6FF73;
+    border-radius: 12px;
+    padding: 16px 27px;
+}
+.container-btn .btn-type1{
+    position: absolute;
+    z-index: 2;
+}
+.container-btn{
+    width: 286px;
+    margin-top: 360px;
+}
