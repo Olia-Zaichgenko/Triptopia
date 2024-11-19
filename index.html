@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triptopia</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </head>
 <body>
     <header class="header">
@@ -29,7 +34,7 @@
                 </div>
             </div>
         </nav>
-        <div class="container main-header">
+        <div class="container main-header wow animate__animated animate__bounceInUp">
             <h1>ПУТЕШЕСТВУЙ ВМЕСТЕ С TRIPTOPIA</h1>
         </div>
         <div class="container container-btn ai-center">
@@ -50,7 +55,44 @@
             </div>
             <img src="./assets/img/plane.png" alt="">
         </div>
-
+    </div>
+    <div class="section section-upcoming-tours">
+        <div class="container">
+            <div class="section-heading">
+                <h2>БЛИЖАЙШИЕ ТУРЫ</h2>
+                <img src="./assets/img/line-heading.png" alt="">
+            </div>
+            <div class="card-type1 row">
+                <img src="./assets/img/upcoming tours1.png" alt="">
+                <div class="description-tour">
+                    <h3>НОВЫЙ ГОД НА АЛТАЕ</h3>
+                    <h4 class="num">20.11-27.11</h4>
+                    <h5>Отправляясь в Новогоднее путешествие с весело компанией, вы сможете взобраться на Алтайские горы, полюбоваться красот ами голубых озёр.</h5>
+                    <div class="cost jc-end">
+                        <h3 class="num">23000</h3>
+                    </div>
+                    <div class="btns ai-center jc-center">
+                        <div class="btn-type2">Забронировать</div>
+                        <div class="btn-type2">Узнать подробнее</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-type1 card-num2 row">
+                <img src="./assets/img/upcoming tours2.png" alt="">
+                <div class="description-tour">
+                    <h3>ГОРЫ ДАГЕСТАНА</h3>
+                    <h4 class="num">24.11-01.12</h4>
+                    <h5>Приглашаем вас окунуться в мир величественных гор и живописных пейзажей Дагестана! Этот тур создан для тех, кто ценит природу, активный отдых и хочет открыть для себя неизведанные уголки Кавказа. </h5>
+                    <div class="cost jc-end">
+                        <h3 class="num">25700</h3>
+                    </div>
+                    <div class="btns ai-center jc-center">
+                        <div class="btn-type2">Забронировать</div>
+                        <div class="btn-type2">Узнать подробнее</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
