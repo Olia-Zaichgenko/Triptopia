@@ -550,5 +550,32 @@ footer .container{
     }
 }
 
+@media (max-width: 1440px) {
+    h1 {
+        font-size: 83px;
+    }
+    .main-img {
+        top: 340px;
+    }
+    .section-about-us .container {
+        margin: 190px auto;
+    }
+    h2 {
+        font-size: 44px;
+    }
+    .section-heading img {
+        height: 84px;
+    }
+    .section-upcoming-tours .section-heading img {
+        width: 40%;
+    }
+    .card-num2 {
+        margin: 100px 0;
+    }
+    .form {
+        padding: 198px 90px;
+    }
+}
+
 
 
