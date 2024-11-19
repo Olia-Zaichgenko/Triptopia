@@ -525,5 +525,30 @@ footer .container{
     }
 } 
 
+@media (max-width: 1536px) {
+    .card-type1 img {
+        height: 400px;
+    }
+    .slider .card-photo img{
+        width: 50%;
+    }
+    .stars {
+        margin-top: -400px;
+        margin-right: -220px;
+        width: 50%;
+    }
+    .stars {
+        margin-top: -260px;
+        margin-right: -220px;
+        width: 90%;
+    }
+    .border-actiive {
+        margin: 0 60px;
+    }
+    .form {
+        padding: 178px 90px;
+    }
+}
+
 
 
