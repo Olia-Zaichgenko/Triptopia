@@ -154,8 +154,14 @@ header{
 .description{
     width: 50%;
 }
-.section-upcoming-tours .section-heading img{
+
+
+/* SECTION UPCOMING TOURS */
+
+.section-heading img{
     height: 90px;
+}
+.section-upcoming-tours .section-heading img{
     width: 32%;
 }
 .description-tour{
@@ -194,6 +200,88 @@ header{
 }
 .card-num2{
     margin: 70px 0 100px 0;
+}
+
+
+/* SECTION GIDS */
+
+
+.section-gids .section-heading img{
+    width: 24%;
+}
+.border{
+    box-shadow: 0px 0px 0px 0px #0077DE33;
+    padding: 13px;
+    background-color: transparent;
+    background-clip: padding-box;
+    border-radius: 60px;
+    border-width: 2px;
+    border-style: solid;
+}
+.border-passive{
+    border-image: linear-gradient(144.34deg, rgba(0, 119, 222, 0.22) 5.59%, rgba(0, 119, 222, 0.2) 50.92%, #0077DE 96.25%);
+    border-image-slice: 1;
+}
+.border-actiive{
+    border-image-source: linear-gradient(144.34deg, #A6FF73 5.59%, rgba(166, 255, 115, 0.2) 50.92%, #A6FF73 96.25%);
+    border-image-slice: 1;
+}
+.card-passive{
+    background: linear-gradient(198.08deg, rgba(0, 119, 222, 0.12) 1.88%, rgba(0, 119, 222, 0.02) 54.6%, rgba(0, 119, 222, 0.1) 99.51%);
+}
+.card-active{
+    background: linear-gradient(198.08deg, rgba(166, 255, 115, 0.12) 1.88%, rgba(166, 255, 115, 0.02) 54.6%, rgba(166, 255, 115, 0.1) 99.51%);
+}
+.card-type2{
+    text-align: center;
+    border-radius: 20px;
+}
+.card-type2 p{
+    font-size: 32px;
+}
+.card-passive h5{
+    color: #0077DE;
+    font-family: "Jura", sans-serif;
+}
+.card-active h5{
+    color: #A6FF73;
+    font-family: "Jura", sans-serif;
+}
+.card-type2 h5{
+    font-size: 20px;
+}
+.slider .card-type2 .text{
+    padding: 0px 72px 40px 72px;
+}
+.slider .card-active .text{
+    padding: 45px 72px 40px 72px;
+}
+.stars {
+    margin-top: -400px;
+    margin-right: -220px;
+}
+.card-passive .card-photo{
+    opacity: 0;
+}
+.card-passive .stars{
+    opacity: 0;
+}
+.switch{
+    border-radius: 5px;
+    height: 19px;
+    width: 33%;
+}
+.sw-passive{
+    background: #0077DE33;
+}
+.sw-active{
+    background: #A6FF73;
+}
+.switches{
+    height: 50px;
+    width: 100%;
+    padding: 0 600px;
+    margin-top: 50px;
 }
 
 
