@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triptopia</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 </head>
 <body>
-    <header class="header">
+    <div class="header">
         <nav class="nav">
             <div class="container">
                 <div class="row space-between ai-center">
@@ -29,6 +31,139 @@
                 </div>
             </div>
         </nav>
-    </header>
+        <div class="container main-header main-header2 wow animate__animated animate__bounceInDown">
+            <h1>НАШИ ТУРЫ</h1>
+        </div>
+    </в>
+    <div class="section section-tours">
+        <div class="container row">
+            <div class="filters">
+                <h4>Фильтры</h4>
+                <div class="number-person filter">
+                    <h6>Количество человек</h6>
+                    <div class="options">
+                        <div class="row space-between">
+                            <div class="option">1 чел.</div>
+                            <div class="option">2 чел.</div>
+                            <div class="option">3 чел.</div>
+                        </div>
+                        <div class="row space-between">
+                            <div class="option">4 чел.</div>
+                            <div class="option">5 чел.</div>
+                            <div class="option">6 чел.</div>
+                        </div>
+                        <div class="row space-between">
+                            <div class="option">7 чел.</div>
+                            <div class="option option-big">больше 7 чел.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="countries filter">
+                    <h6>Страны</h6>
+                    <div class="option-country column">
+                        <div class="row ai-center">
+                            <input type="radio" name="agree"  >Россия
+                        </div>
+                        <div class="row ai-center">
+                            <input type="radio" name="agree" >Чехия
+                        </div>
+                        <div class="row ai-center">
+                            <input type="radio" name="agree" >Норвегия
+                        </div>
+                        <div class="row ai-center">
+                            <input type="radio" name="agree" >Непал
+                        </div>
+                        <div class="row ai-center">
+                            <input type="radio" name="agree" >Чили
+                        </div>
+                    </div>
+                </div>
+                <div class="dates filter">
+                    <h6>Даты</h6>
+                    <input type="date">
+                </div>
+                <div class="ai-center jc-center">
+                    <button class="btn-type1">
+                        показать
+                    </button>
+                </div>
+            </div>
+            <div class="tours">
+                <div class="card-type4 row">
+                    <img src="./assets/img/tour1.png" alt="">
+                    <div class="description-tour2">
+                        <h4>Кэмпинг в Патагонии</h4>
+                        <p>Отправляясь в Новогоднее путешествие с весело компанией, вы сможете взобраться на Алтайские горы, полюбоваться красот ами голубых озёр.</p>
+                        <h6>23 000</h6>
+                        <div class="jc-end">
+                            <div class="btn-type3">ПОДРОБНЕЕ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-type4 row">
+                    <img src="./assets/img/tour2.png" alt="">
+                    <div class="description-tour2">
+                        <h4>Путешествие к Килиманджаро</h4>
+                        <p>Отправляясь в Новогоднее путешествие с весело компанией, вы сможете взобраться на Алтайские горы, полюбоваться красот ами голубых озёр.</p>
+                        <h6>29 000</h6>
+                        <div class="jc-end">
+                            <div class="btn-type3">ПОДРОБНЕЕ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-type4 row">
+                    <img src="./assets/img/tour3.png" alt="">
+                    <div class="description-tour2">
+                        <h4>Красоты Домбая</h4>
+                        <p>Отправляясь в Новогоднее путешествие с весело компанией, вы сможете взобраться на Алтайские горы, полюбоваться красот ами голубых озёр.</p>
+                        <h6>24 500</h6>
+                        <div class="jc-end">
+                            <div class="btn-type3">ПОДРОБНЕЕ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-type4 row">
+                    <img src="./assets/img/tour4.png" alt="">
+                    <div class="description-tour2">
+                        <h4>Анды</h4>
+                        <p>Отправляясь в Новогоднее путешествие с весело компанией, вы сможете взобраться на Алтайские горы, полюбоваться красот ами голубых озёр.</p>
+                        <h6>26 000</h6>
+                        <div class="jc-end">
+                            <div class="btn-type3">ПОДРОБНЕЕ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-type4 row">
+                    <img src="./assets/img/tour5.png" alt="">
+                    <div class="description-tour2">
+                        <h4>Новый год на Эльбрусе</h4>
+                        <p>Отправляясь в Новогоднее путешествие с весело компанией, вы сможете взобраться на Алтайские горы, полюбоваться красот ами голубых озёр.</p>
+                        <h6>32 400</h6>
+                        <div class="jc-end">
+                            <div class="btn-type3">ПОДРОБНЕЕ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container row space-between">
+            <img src="./assets/img/logo.png" alt="">
+            <div class="tel column ai-center">
+                <h6>Call center</h6>
+                <p>+7 867 786 67 76</p>
+                <p>+7 867 768 66 66</p>
+            </div>
+            <div class="email column ai-center">
+                <h6>Email</h6>
+                <p>triptopia@yourmail.com</p>
+            </div>
+            <div class="office column ai-center">
+                <h6>Office</h6>
+                <p>943397, Тюменская область, город Щёлково, проезд Косиора, 69</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
