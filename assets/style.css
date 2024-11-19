@@ -36,6 +36,10 @@ body{
     display: flex;
     align-items: center;
 }
+.ai-start{
+    display: flex;
+    align-items: start;
+}
 .jc-center{
     display: flex;
     justify-content: center;
@@ -128,6 +132,7 @@ header{
     position: absolute;
     top: 330px;
     z-index: 1;
+    width: 100%;
 }
 .btn-type1{
     background-color: #A6FF73;
@@ -214,7 +219,7 @@ header{
 /* SECTION GIDS */
 
 
-.section-gids .section-heading img{
+.section-gids .section-heading img {
     width: 24%;
 }
 .border{
@@ -233,6 +238,7 @@ header{
 .border-actiive{
     border-image-source: linear-gradient(144.34deg, #A6FF73 5.59%, rgba(166, 255, 115, 0.2) 50.92%, #A6FF73 96.25%);
     border-image-slice: 1;
+    margin: 0 100px;
 }
 .card-passive{
     background: linear-gradient(198.08deg, rgba(0, 119, 222, 0.12) 1.88%, rgba(0, 119, 222, 0.02) 54.6%, rgba(0, 119, 222, 0.1) 99.51%);
@@ -463,6 +469,61 @@ footer .container{
 .footer{
     margin-top: 0px;
 }
+
+
+
+/* АДАПТИВ */
+@media (max-width: 1600px) {
+    .container{
+        width: 1200px;
+    }
+    .container-btn {
+        margin-top: 260px;
+    }
+    .section-about-us .container {
+        margin: 170px auto 267px auto;
+    }
+    .img-plane{
+        width: 40%;
+    }
+    .description {
+        width: 67%;
+    }
+    .section-about-us .container {
+        margin: 230px auto;
+    }
+    .section-upcoming-tours .section-heading img {
+        width: 43%;
+    }
+    .card-type1 img{
+        width: 65%;
+    }
+    .description-tour {
+        width: 50%;
+    }
+    .section-gids .section-heading img {
+        width: 30%;
+    }
+    .switch {
+        width: 20px;
+        height: 120px;
+    }
+    .border-actiive {
+        margin: 0 10px;
+    }
+    .form {
+        padding: 196px 120px;
+    }
+    .filters {
+        width: 45%;
+    }
+    .card-type4 .btn-type3 {
+        width: 34%;
+    }
+    .main-header2 h1 {
+        margin: 50px auto;
+    }
+} 
 
 
 
