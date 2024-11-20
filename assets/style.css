@@ -1005,5 +1005,113 @@ footer .container{
     }
 }
 
+@media (max-width: 768px){
+    .container{
+        width: 600px;
+    }
+    .main-img {
+        top: 730px;
+    }
+    h1 {
+        font-size: 55px;
+    }
+    .btn-type1 h4{
+        font-size: 20px;
+    }
+    .btn-type1 {
+        padding: 10px 15px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .section-about-us .container {
+        margin: 150px auto;
+    }
+    .section-upcoming-tours .section-heading img {
+        width: 43%;
+    }
+    .description-tour {
+        border-radius: 10px;
+        padding: 17px;
+    }
+    .card-num2 {
+        margin: 100px 0;
+    }
+    .border {
+        width: 50%;
+    }
+    .slider .card-passive .text {
+        padding: 20px;
+    }
+    .card-type2 p {
+        font-size: 17px;
+    }
+    .stars {
+        margin-top: -180px;
+        margin-right: -125px;
+    }
+    .border {
+        margin-top: 30px;
+    }
+    .btn-type3 {
+        width: 62%;
+    }
+    .form {
+        padding: 180px 90px;
+    }
+    footer .container {
+        width: 500px;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    .header{
+        background-size: auto 220px ;
+    }
+    .main-header2 h1 {
+        margin: 53px auto;
+    }
+    .section-tours {
+        padding-top: 50px;
+    }
+    h6 {
+        font-size: 12px;
+    }
+    .option {
+        border-radius: 10px;
+        font-size: 9px;
+        padding: 2px 0 2px 0;
+    }
+    .filters .btn-type1 {
+        font-size: 11px;
+        padding: 4px 20px;
+    }
+    .card-type4 {
+        height: 100px;
+    }
+    .description-tour2 {
+        padding: 10px 10px;
+    }
+    .card-type4 h4 {
+        font-size: 11px;
+    }
+    .card-type4 h6 {
+        font-size: 10px;
+    }
+    .tours p {
+        margin-top: 7px;
+    }
+    .card-type4 .btn-type3 {
+        width: 34%;
+        font-size: 8px;
+    }
+    .card-type4 .jc-end {
+        margin-top: -23px;
+    }
+    .card-type4 .btn-type3 {
+        padding: 1px 10px;
+    }
+}
+
 
 
