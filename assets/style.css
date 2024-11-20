@@ -1390,7 +1390,7 @@ footer .container{
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 376px){
     .section-tours .container {
         width: 270px !important;
     }
