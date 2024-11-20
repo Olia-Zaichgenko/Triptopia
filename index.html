@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="script.js" defer></script>
     <script>
         new WOW().init();
     </script>
@@ -102,8 +103,8 @@
             </div>
             <div class="slider ai-center column">
                 <div class="cards row space-between ai-center">
-                    <div class="border-passive border">
-                        <div class="card-passive card-type2 card1">
+                    <div class="border-passive border" id="border1">
+                        <div class="card-passive card-type2 card1" id="card1">
                             <div class="card-photo jc-end">
                                 <img src="./assets/img/card-photo1.png" alt="">
                             </div>
@@ -114,8 +115,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border-actiive border">
-                        <div class="card-active card-type2 card2">
+                    <div class="border-actiive border" id="border2">
+                        <div class="card-active card-type2 card2" id="card2">
                             <div class="card-photo jc-end">
                                 <img src="./assets/img/card-photo2.png" alt="">
                             </div>
@@ -126,8 +127,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border-passive border">
-                        <div class="card-passive card-type2 card3">
+                    <div class="border-passive border border-passive" id="border3">
+                        <div class="card-passive card-type2 card3" id="card3">
                             <div class="card-photo jc-end">
                                 <img src="./assets/img/card-photo3.png" alt="">
                             </div>
@@ -140,9 +141,9 @@
                     </div>
                 </div>
                 <div class="switches row ai-center">
-                    <div class="switch sw-passive"></div>
-                    <div class="switch sw-active"></div>
-                    <div class="switch sw-passive"></div>
+                    <div class="switch sw-passive" id="sw1" onclick="changeImage(1)" ></div>
+                    <div class="switch sw-active" id="sw2" onclick="changeImage(2)"></div>
+                    <div class="switch sw-passive" id="sw3"onclick="changeImage(3)"></div>
                 </div>
             </div>
         </div>
@@ -169,8 +170,10 @@
         </div>
     </div>
     <footer class="footer">
-        <div class="container row space-between">
-            <img src="./assets/img/logo.png" alt="">
+        <div class="container row space-between jc-center ai-center">
+            <div class="column">
+                <img src="./assets/img/logo.png" alt="">
+            </div>
             <div class="tel column ai-start">
                 <h6>Call center</h6>
                 <p>+7 867 786 67 76</p>

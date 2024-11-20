@@ -130,7 +130,7 @@ header{
 }
 .main-img{
     position: absolute;
-    top: 330px;
+    top: 340px;
     z-index: 1;
     width: 100%;
 }
@@ -456,9 +456,10 @@ footer{
 }
 footer p{
     font-size: 16px;
+    margin-top: 10px;
 }
 footer img{
-    height: 20%;
+    width: 20%;
 }
 footer .column{
     width: 30%;
@@ -504,9 +505,12 @@ footer .container{
     .section-gids .section-heading img {
         width: 30%;
     }
+    .switches {
+        padding: 0 460px;
+    }
     .switch {
-        width: 20px;
-        height: 120px;
+        width: 30%px;
+        height: 15px;
     }
     .border-actiive {
         margin: 0 10px;
@@ -698,7 +702,7 @@ footer .container{
 
 @media (max-width: 1280px) {
     .main-img {
-        top: 300px;
+        top: 320px;
     }
     h1 {
         font-size: 70px;
@@ -738,6 +742,112 @@ footer .container{
 @media (max-width: 1024px) {
     .container{
         width: 800px;
+    }
+    .main-img {
+        top: 970px;
+    }
+    h1 {
+        margin-top: 400px;
+    }
+    .section-about-us .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .img-plane {
+        width: 70%;
+        margin-top: 100px;
+    }
+    .section-upcoming-tours .section-heading img {
+        width: 46%;
+    }
+    .card-type1 img {
+        height: 270px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .btn-type2 {
+        padding: 7px 15px;
+    }
+    .description-tour h5 {
+        margin: 10px 0;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .border-passive {
+        border-image-source: linear-gradient(144.34deg, #A6FF73 5.59%, rgba(166, 255, 115, 0.2) 50.92%, #A6FF73 96.25%);
+        border-image-slice: 1;
+    }
+    .card-passive {
+        background: linear-gradient(198.08deg, rgba(166, 255, 115, 0.12) 1.88%, rgba(166, 255, 115, 0.02) 54.6%, rgba(166, 255, 115, 0.1) 99.51%);
+    }
+    .card-passive .stars {
+        opacity: 100;
+    }
+    .card-passive .card-photo {
+        opacity: 100;
+    }
+    .card-passive h5 {
+        color: #A6FF73;
+    }
+    .stars {
+        margin-top: -300px;
+        margin-right: -170px;
+    }
+    .slider .card-active .text {
+        padding: 20px 31px;
+    }
+    .border{
+        margin-top: 50px;
+    }
+    .section-heading img {
+        margin: -40px 0 0px;
+    }
+    .form {
+        padding: 200px 90px;
+        margin: 240px 0;
+    }
+    .section-feedback {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .section-feedback .container{
+        justify-content: center;
+    }
+    .form {
+        width: 75%;
+    }
+    .option{
+        font-size: 10px;
+    }
+    h6 {
+        font-size: 15px;
+    }
+    .filter {
+        margin-top: 30px;
+    }
+    .option-country .row {
+        font-size: 12px;
+    }
+    .filters{
+        padding: 30px;
+    }
+    .card-type4 h4 {
+        font-size: 12px;
+    }
+    .tours p {
+        font-size: 10px;
+    }
+    .card-type4 .btn-type3 {
+        padding: 3px 10px;
+    }
+    .card-type4 .btn-type3 {
+        width: 40%;
+    }
+    .card-type4 .jc-end{
+        margin-top: -10px;
     }
 }
 
