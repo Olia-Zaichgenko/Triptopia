@@ -1351,5 +1351,44 @@ footer .container{
     }
 }
 
+@media (max-width: 391px){
+    h1 {
+        font-size: 29px;
+        color: #FFFFFF;
+    }
+    .section-about-us .container {
+        padding: 70px 0 203px 0;
+        margin: 0 auto;
+    }
+    .section-heading img {
+        margin: -50px 0 30px;
+    }
+    .description-tour {
+        padding: 13px;
+    }
+    .form {
+        margin: 165px 0;
+        width: 95%;
+    }
+    .section-tours .container {
+        width: 350px !important;
+    }
+    h4 {
+        font-size: 5px;
+    }
+    .filter {
+        margin-left: 0;
+    }
+    .section-tours .filters {
+        opacity: 0;
+    }
+    .tours{
+        margin-top: -500px;
+    }
+    .tours {
+        margin-top: -130px;
+    }
+}
+
 
 
