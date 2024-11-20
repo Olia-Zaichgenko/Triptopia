@@ -1114,7 +1114,7 @@ footer .container{
 }
 
 
-@media (max-width: 414px){
+@media (max-width: 415px){
     .container{
         width: 300px;
     }
@@ -1387,6 +1387,42 @@ footer .container{
     }
     .tours {
         margin-top: -130px;
+    }
+}
+
+@media (max-width: 375px){
+    .section-tours .container {
+        width: 270px !important;
+    }
+    .description-tour2 {
+        padding: 5px;
+    }
+    .card-type4 h4 {
+        font-size: 8px;
+    }
+    .tours p {
+        font-size: 6px;
+    }
+    .card-type4 h6 {
+        font-size: 8px;
+    }
+    .card-type4 .btn-type3 {
+        width: 53%;
+        font-size: 7px;
+    }
+    .card-type4 .jc-end {
+        margin-top: -13px;
+    }
+    footer h6 {
+        font-size: 7px;
+        margin-bottom: 3px;
+    }
+    footer p {
+        font-size: 6px;
+        margin-top: 0px;
+    }
+    footer {
+        padding: 15px 0;
     }
 }
 
