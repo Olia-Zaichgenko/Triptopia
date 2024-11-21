@@ -118,6 +118,10 @@ header{
     padding: 0 016px 0 8px;
     border-radius: 12px;
     margin: 11px 0;
+    transition: 0.2s ease-in;
+}
+.btn-call:hover{
+    background: #FFFFFF66;
 }
 .btn-call h5{
     color: #020E20;
@@ -139,6 +143,10 @@ header{
     border-radius: 12px;
     padding: 16px 27px;
     color: black;
+    transition: 0.2s ease-in;
+}
+.btn-type1:hover{
+    background-color: #a6ff738f;
 }
 .container-btn .btn-type1{
     position: absolute;
@@ -322,6 +330,9 @@ input::placeholder{
     font-size: 20px;
     font-family: "Jura", sans-serif;
 }
+input, select, textarea{
+    color: #FFFFFF;
+}
 .line-form{
     margin-top: -10px;
     margin-bottom: 55px;
@@ -332,6 +343,10 @@ input::placeholder{
    border: 3px solid #A6FF73;
    border-radius: 20px;
    width: 39%;
+}
+.btn-type3:hover{
+    background: #FFFFFF66;
+    color: #A6FF73;
 }
 .btn{
     margin-top: 45px;
@@ -359,7 +374,6 @@ input::placeholder{
     padding: 40px 53px;
     border-radius: 20px;
     width: 29%;
-    color: black;
     margin-right: 60px;
     height: 30%;
 }
