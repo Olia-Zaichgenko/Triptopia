@@ -1175,7 +1175,7 @@ footer .container{
         margin: -50px 0 40px;
     }
     p {
-        font-size: 10px;
+        font-size: 13px;
     }
     .switches {
         padding: 0 200px;
@@ -1281,6 +1281,7 @@ footer .container{
     .form {
         padding: 80px 30px;
         margin: 225px 0;
+        width: 100%;
     }
     .inputs input::placeholder{
         font-size: 11px;
@@ -1293,11 +1294,11 @@ footer .container{
         margin-bottom: 25px;
     }
     .btn-type3 {
-        font-size: 10px;
+        font-size: 12px;
         padding: 3px 10px;
         border: 2px solid #A6FF73;
         border-radius: 20px;
-        width: 58%;
+        width: 54%;
     }
     footer h6 {
         font-size: 10px;
@@ -1383,6 +1384,18 @@ footer .container{
     .form {
         margin: 165px 0;
         width: 95%;
+    }
+    .form h4 {
+        font-size: 13px;
+    }
+    .form h2{
+        font-size: 17px;
+    }
+    .btn-type3 {
+        width: 58%;
+    }
+    .form input::placeholder{
+        font-size: 13px;
     }
     .section-tours .container {
         width: 350px !important;
