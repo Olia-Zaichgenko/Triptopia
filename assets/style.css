@@ -437,6 +437,12 @@ input[type="date"]{
     padding: 7px 19px;
     margin-top: 48px;
 }
+.tours a{
+    color: #FFFFFF;
+}
+.tours a:hover{
+    color: #A6FF73;
+}
 .tours h4{
     color: #A6FF73;
 }
@@ -483,6 +489,91 @@ footer .container{
 }
 .footer{
     margin-top: 0px;
+}
+
+/* СТРАНИЦА INDEX3.HTML */
+.header3{
+    background: url(./img/paagonia-bg.png);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header3 h1{
+    font-size: 80px;
+}
+.section-excursion .section-heading img{
+    width: 39%;
+    margin-top: -110px;
+}
+.section-excursion p{
+    width: 50%;
+}
+.section-excursion .container{
+    margin: 232px auto 395px auto;
+}
+.section-excursion .mount{
+    position: absolute;
+    top: 290px;
+    right: 0px;
+}
+.section-inf h4{
+    color: #FFFFFF;
+}
+.section-inf p{
+    margin-bottom: 57px;
+}
+.section-inf .container{
+    margin-bottom: 167px;
+}
+.section-inf .section-heading img {
+    margin-top: -110px;
+    width: 38%;
+}
+
+
+/* SECTION GALLERY */
+.section-gallery .container{
+    margin: 54px auto;
+}
+.section-gallery .grid {
+    display: grid;
+    grid-template: repeat(2, 370px) / 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+.section-gallery .grid .grid-el:nth-child(1) {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: linear-gradient(#00000000 50%, #00000088 100%), url(./img/gallery1.png);
+}
+.section-gallery .grid .grid-el:nth-child(2) {
+    grid-area: 1 / 2 / 2 / 4;
+    background-image: linear-gradient(#00000000 50%, #00000088 100%), url(./img/gallery2.png);
+}
+.section-gallery .grid .grid-el:nth-child(3) {
+    grid-area: 1 / 4 / 3 / 5;
+    background-image: linear-gradient(#00000000 50%, #00000088 100%), url(./img/gallery3.png);
+}
+.section-gallery .grid .grid-el:nth-child(4) {
+    grid-area: 2 / 1 / 3 / 3;
+    background-image: linear-gradient(#00000000 50%, #00000088 100%), url(./img/gallery4.png);
+}
+.section-gallery .grid .grid-el:nth-child(5) {
+    grid-area: 2 / 3 / 3 / 4;
+    background-image: linear-gradient(#00000000 50%, #00000088 100%), url(./img/gallery5.png);
+}
+.section-gallery .section-heading img{
+    margin-top: -110px;
+    width: 35%;
+}
+.section-gallery .section-heading img {
+    margin-top: -110px;
+    width: 26%;
+}
+
+
+
+/* SECTION INF */
+.icon{
+    background: url(./img/stars-card.png);
 }
 
 
