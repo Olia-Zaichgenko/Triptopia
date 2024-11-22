@@ -1455,6 +1455,59 @@ footer .container{
     .card-type4 {
         margin: 40px 0 0 0;
     }
+    .header3 h1 {
+        font-size: 30px;
+    }
+    .header3 {
+        height: 200px;
+    }
+    .section-excursion .section-heading img {
+        width: 56%;
+        margin-top: -50px;
+    }
+    .section-excursion .container {
+        margin: 10px auto 395px auto;
+    }
+    .section-excursion .mount {
+        position: absolute;
+        top: 390px;
+        right: 0px;
+        width: 100%;
+    }
+    .section-excursion p {
+        width: 100%;
+    }
+    .section-excursion .container {
+        margin: 10px auto 470px auto;
+    }
+    .section-inf .section-heading img {
+        margin-top: -50px;
+        width: 55%;
+    }
+    .documents .row img{
+        width: 25%;
+    }
+    .medicines .row img{
+        width: 25%;
+    }
+    .section-inf .inform{
+        flex-direction: column;
+    }
+    .section-inf p {
+        margin-bottom: 17px;
+    }
+    .section-gallery .grid {
+        display: grid;
+        grid-template: repeat(2, 74.25px) / 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    .section-gallery .section-heading img {
+        margin-top: -50px;
+        width: 43%;
+    }
+    .section-inf .container {
+        margin-bottom: 90px;
+    }
 }
 
 @media (max-width: 391px){
